@@ -7,7 +7,7 @@ class profile::apache (
     default_vhost => $default_vhost,
   }
 
-  ::apache::vhost { 'kseppler2.mylabserver.com'
+  ::apache::vhost { 'kseppler2.mylabserver.com':
     port    => $port,
     docroot => $docroot,
   }
