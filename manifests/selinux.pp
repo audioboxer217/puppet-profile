@@ -1,4 +1,4 @@
 class profile::selinux {
-  include ::selinux,
+  include ::selinux
 }
 
